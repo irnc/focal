@@ -1,7 +1,12 @@
-.focal-blur > * {
+.focal-blur * {
   opacity: .5;
 }
 
+/*
+  Keep nested focal-blur on opacity: 1 so non-direct focal-focus child is
+  rendered on an opaque block.
+*/
+.focal-blur > .focal-blur,
 .focal-focus {
   opacity: 1;
 }
