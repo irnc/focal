@@ -1,0 +1,22 @@
+{
+  "name": "focal",
+  "version": "0.0.1",
+  "authors": [
+    "Pavel Zubkou <pavel.zubkou@gmail.com>"
+  ],
+  "description": "Utility classes for bluring parent and focusing on some child",
+  "main": "focal.css",
+  "keywords": [
+    "opacity",
+    "focus",
+    "blur"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,7 @@
+.focal-blur > * {
+  opacity: .5;
+}
+
+.focal-focus {
+  opacity: 1;
+}
